@@ -13,11 +13,12 @@
     --light-gray: #cccccc; 
     --tourney-title-font: 'Tourney', cursive;
     --tourney-title-weight-500: 500;
+    --tourney-title-weight-400: 400;
     --tourney-title-weight-100: 100;
 }
 
 body{
-    background-color: var(--light-gray);
+    background-color: var(--dark-gray);
 }
 
 .main-layout{

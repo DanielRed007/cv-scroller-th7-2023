@@ -10,6 +10,7 @@
             font-size: 40px;
             width: auto;
             padding: 10px 35px 10px 10px;
+            color: var(--light-gray);
             border-bottom: 2px solid var(--light-olive);
             font-family: var(--tourney-title-font);
             font-weight: var(--tourney-title-weight-900);
@@ -26,7 +27,7 @@
         h1{
             margin: 0; 
             font-size: 140px;
-            color: var(--dark-olive);
+            color: var(--light-gray);
         }
 
         h2{
@@ -46,7 +47,7 @@
         h1{
             margin: 0; 
             font-size: 100px;
-            color: var(--dark-olive);
+            color: var(--light-gray);
         }
 
         h2{
@@ -56,9 +57,86 @@
         }
     }
 
-    .sabrosito{
-        position: absolute;
-        bottom: 0;
-    }
     height: 2200px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    
+    .cv-container{
+        .nav-menu{
+            top: 14rem;
+    
+            div{
+                
+            }
+        }
+
+        .title{
+            height: 600px;
+    
+            h1{
+                font-size: 140px;
+            }
+    
+            h2{
+                font-size: 90px;
+            }
+        }
+    
+        .sub-title{
+            height: 600px;
+    
+            h1{ 
+                font-size: 70px;
+            }
+    
+            h2{
+                font-size: 40px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .cv-container{
+        .nav-menu{
+            position: fixed;
+            right: 0.5rem;
+            top: 7rem;
+
+            div{
+                text-align: right;
+                font-size: 28px;
+                width: auto;
+                padding: 7px 7px 7px 10px;
+                color: var(--light-gray);
+                border-bottom: 1.5px solid var(--light-olive);
+                font-weight: var(--tourney-title-weight-400);
+            }
+        }
+
+        .title{
+            height: 900px;
+    
+            h1{
+                font-size: 70px;
+            }
+    
+            h2{
+                font-size: 45px;
+            }
+        }
+    
+        .sub-title{
+            height: 400px;
+    
+            h1{ 
+                font-size: 35px;
+            }
+    
+            h2{
+                font-size: 20px;
+            }
+        }
+    }
 }
