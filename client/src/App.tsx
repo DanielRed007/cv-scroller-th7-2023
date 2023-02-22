@@ -1,5 +1,5 @@
 import React from 'react';
-import { CurriculumVitae } from './components/CurriculumVitae';
+import { CurriculumVitae } from './components/CurriculumVitae/CurriculumVitae';
 
 function App() {
   return (
