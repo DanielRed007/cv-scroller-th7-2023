@@ -1,0 +1,27 @@
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@100;400;500;700;900&display=swap');
+// external scss files
+@import './components/CurriculumVitae.scss';
+
+:root {
+    --dark-olive: #556b2f;
+    --light-olive: #1a4e18;
+    --dark-orange: #a7321c;
+    --light-orange: #c94a42;
+    --charcoal-gray: #333333;
+    --dark-gray: #666666;
+    --light-gray: #cccccc; 
+    --tourney-title-font: 'Tourney', cursive;
+    --tourney-title-weight-500: 500;
+    --tourney-title-weight-100: 100;
+}
+
+body{
+    background-color: var(--light-gray);
+}
+
+.main-layout{
+    display: flex;
+    justify-content: center;
+    height: auto;
+}

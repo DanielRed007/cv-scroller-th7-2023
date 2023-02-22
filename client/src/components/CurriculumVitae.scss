@@ -1,0 +1,65 @@
+
+.cv-container{
+
+    .nav-menu{
+        position: fixed;
+        right: 2rem;
+        top: 2rem;
+
+        div{
+            font-size: 25px;
+            width: auto;
+            padding: 20px;
+            margin-top: 2px;
+            border-bottom: 2px solid var(--light-olive);
+            font-family: var(--tourney-title-font);
+            font-weight: var(--tourney-title-weight-900);
+        }
+    }
+    
+    .title{
+        display: flex;
+        align-items: flex-start;
+        width: 80%;
+        font-family: var(--tourney-title-font);
+        height: 900px;
+
+        h1{
+            margin: 0; 
+            font-size: 140px;
+            color: var(--dark-olive);
+        }
+
+        h2{
+            margin: 0;
+            font-size: 90px;
+            color: var(--light-olive);
+        }
+    }
+
+    .sub-title{
+        display: flex;
+        align-items: flex-start;
+        width: 80%;
+        font-family: var(--tourney-title-font);
+        height: 900px;
+
+        h1{
+            margin: 0; 
+            font-size: 100px;
+            color: var(--dark-olive);
+        }
+
+        h2{
+            margin: 0;
+            font-size: 70px;
+            color: var(--light-olive);
+        }
+    }
+
+    .sabrosito{
+        position: absolute;
+        bottom: 0;
+    }
+    height: 2200px;
+}
