@@ -1,7 +1,8 @@
 // fonts
-@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@100;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&family=Sono:wght@200;400;500&display=swap');
 // external scss files
 @import './components/CurriculumVitae/CurriculumVitae.scss';
+@import './components/TitleSection/TitleSection.scss';
 
 :root {
     --dark-olive: #556b2f;
@@ -11,14 +12,19 @@
     --charcoal-gray: #333333;
     --dark-gray: #666666;
     --light-gray: #cccccc; 
-    --tourney-title-font: 'Tourney', cursive;
-    --tourney-title-weight-500: 500;
-    --tourney-title-weight-400: 400;
-    --tourney-title-weight-100: 100;
+    --la-oswalditta: 'Oswald', sans-serif;
+    --flaquitta: 200;
+    --medio-flaquitta: 300;
+    --medio-gorditta: 500;
+    --gorditta: 600;
+    --la-classuda: 'Sono', sans-serif;
+    --finitta: 200;
+    --finitta-skinny: 400;
+    --finitta-strong: 500; 
 }
 
 body{
-    background-color: var(--dark-gray);
+    background-color: var(--light-gray);
 }
 
 .main-layout{
