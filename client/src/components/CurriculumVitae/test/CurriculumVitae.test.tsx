@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import { CurriculumVitae } from '../CurriculumVitae';
+import CurriculumVitae from '../CurriculumVitae';
 
 describe("Curriculum Vitae Test Cases", () => {
     test('renders title', () => {
