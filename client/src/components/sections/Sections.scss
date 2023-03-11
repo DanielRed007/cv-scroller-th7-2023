@@ -1,0 +1,20 @@
+
+.section-container{
+    width: 80%;
+    padding-left: 7rem;
+    padding-top: 3rem;
+
+    .section-main-title{
+        font-size: 50px;
+        font-family: var(--la-oswalditta);
+    }
+    
+    .section-text-paragraph{
+        font-family: var(--la-classuda);
+        font-size: 20px;
+    }
+
+    .about-icon{
+        font-size: 90px;
+    }
+}
