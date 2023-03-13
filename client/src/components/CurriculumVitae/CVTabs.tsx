@@ -6,6 +6,9 @@ import Typography from '@mui/material/Typography';
 import { labelSection } from "../../data/labels";
 import { AboutMe } from '../sections/AboutMe';
 import { Education } from '../sections/Education';
+import { Experience } from '../sections/Experience';
+import { Skills } from '../sections/Skills';
+import { Customers } from '../sections/Customers';
 
 interface CVTabsProps{
     tabClass: string;
@@ -54,11 +57,11 @@ export const CVTabs = ({ tabClass }: CVTabsProps) => {
                 className={tabClass}
                 onChange={handleChange}
                 aria-label="Vertical tabs example"
-                sx={{ borderColor: 'divider', padding: "2rem", marginTop: "14rem" }}
+                sx={{ borderColor: 'divider', paddingLeft: "7rem", marginTop: "14rem" }}
             >
                 {
                     labelSection.map((label,idx) => (
-                        <Tab sx={{fontFamily: "Sono", fontSize: "18px"}} label={label} key={idx} />
+                        <Tab sx={{fontFamily: "Oswald", fontSize: "18px"}} label={label} key={idx} />
                     ))
                 }
             </Tabs>
@@ -71,19 +74,13 @@ export const CVTabs = ({ tabClass }: CVTabsProps) => {
                     <Education />
                 </TabPanel>
                 <TabPanel value={value} index={2}>
-                    Experience
+                    <Experience />
                 </TabPanel>
                 <TabPanel value={value} index={3}>
-                    Skills
+                    <Skills />
                 </TabPanel>
                 <TabPanel value={value} index={4}>
-                    Acomplishments
-                </TabPanel>
-                <TabPanel value={value} index={5}>
-                    Certifications
-                </TabPanel>
-                <TabPanel value={value} index={6}>
-                    References
+                    <Customers />
                 </TabPanel>
             </div>
         </>

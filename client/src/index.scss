@@ -6,8 +6,8 @@
 @import './components/sections/Sections.scss';
 
 :root {
-    --dark-olive: #556b2f;
-    --light-olive: #1a4e18;
+    --dark-olive: #1a4e18;
+    --light-olive: #556b2f ;
     --dark-orange: #a7321c;
     --light-orange: #c94a42;
     --charcoal-gray: #333333;
@@ -25,6 +25,8 @@
 }
 
 body{
+    margin: 0;
+    padding: 0;
     background-color: var(--light-gray);
 }
 

@@ -2,11 +2,20 @@
 .title-section{
     padding-right: 7rem;
     padding-top: 7rem;
+    background-color: var(--dark-olive);
+    height: 100vh;
     
     h1{
         font-family: var(--la-classuda);
         font-weight: var(--finitta-skinny);
         font-size: 120px;
         margin: 0;
+        color: var(--light-gray);
+        margin-left: 3rem;
+        line-height: 0.9;
+    }
+
+    .title-top{
+        
     }
 }

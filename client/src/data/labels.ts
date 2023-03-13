@@ -4,7 +4,5 @@ export const labelSection: string[] = [
     "Education",
     "Experience",
     "Skills",
-    "Acomplishments",
-    "Certifications",
-    "References"
+    "Customers"
 ]; 

@@ -4,17 +4,25 @@
     padding-left: 7rem;
     padding-top: 3rem;
 
+    .title-container{
+        display: flex;
+        justify-content: space-between;
+
+        .about-icon{
+            font-size: 90px;
+            margin-top: 1rem;
+            color: var(--dark-orange);
+        }
+    }
+
     .section-main-title{
         font-size: 50px;
         font-family: var(--la-oswalditta);
+        color: var(--dark-olive);
     }
     
     .section-text-paragraph{
         font-family: var(--la-classuda);
         font-size: 20px;
-    }
-
-    .about-icon{
-        font-size: 90px;
     }
 }
