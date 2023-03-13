@@ -18,4 +18,31 @@
     .title-top{
         
     }
+
+    .title-bottom-section{
+        margin-left: 3rem;
+
+        .title-icons{
+            margin-top: 2rem;
+        }
+
+        .title-contact{
+            margin-top: 2rem;
+
+            .contact-block{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                font-family: var(--la-oswalditta);
+                
+                h3{
+                    margin-left: 0.5rem;
+                    color: var(--light-gray);
+                    font-weight: var(--medio-flaquitta);
+                    font-size: 24px;
+                }
+            }
+        }
+    }
 }
+
