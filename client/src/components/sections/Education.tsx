@@ -63,8 +63,8 @@ const EducationCard = (props: any) => (
       <Collapse in={props.expanded} timeout="auto" unmountOnExit>
         <CardContent>
           <Typography paragraph>
-            Heat 1/2 cup of the broth in a pot until simmering, add saffron and set
-            aside for 10 minutes.
+            {/* Heat 1/2 cup of the broth in a pot until simmering, add saffron and set
+            aside for 10 minutes. */}
           </Typography>
           <Typography paragraph>
             Heat oil in a (14- to 16-inch) paella pan or a large, deep skillet over
