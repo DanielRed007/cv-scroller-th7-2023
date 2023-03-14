@@ -1,6 +1,7 @@
 
 import React from 'react';
 import StarPurple500Icon from '@mui/icons-material/StarPurple500';
+import { aboutMe } from '../../data/aboutMe';
 
 
 export const AboutMe = () => {
@@ -11,8 +12,9 @@ export const AboutMe = () => {
         <StarPurple500Icon className="about-icon" />
       </div>
 
-      <p className="section-text-paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam nihil iure temporibus enim quo quasi saepe soluta, esse rerum architecto magni quidem, nulla porro alias distinctio at ipsum sint laudantium!</p>
-      <p className="section-text-paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam nihil iure temporibus enim quo quasi saepe soluta, esse rerum architecto magni quidem, nulla porro alias distinctio at ipsum sint laudantium!</p>
+      { aboutMe.map((text,i) => (
+        <p className="section-text-paragraph" key={i}>{text}</p>
+      )) }
     </div>
   )
 }

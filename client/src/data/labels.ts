@@ -5,4 +5,5 @@ export const labelSection: string[] = [
     "Experience",
     "Skills",
     "Customers"
-]; 
+];
+
