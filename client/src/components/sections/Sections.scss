@@ -25,4 +25,12 @@
         font-family: var(--la-classuda);
         font-size: 20px;
     }
+
+    .info-card-container{
+        display: flex;
+    }
+
+    .info-card-item{
+        margin: 0.5rem;
+    }
 }

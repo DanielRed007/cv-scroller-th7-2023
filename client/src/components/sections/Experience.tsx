@@ -1,8 +1,16 @@
 
-import React from 'react';
+import React, { useState } from 'react';
 import TimelineIcon from '@mui/icons-material/Timeline';
+import { experience } from "../../data/experience";
+import { InfoCard } from "./shared/Infocard";
 
 export const Experience = () => {
+  const [expanded, setExpanded] = useState(false);
+
+  const handleExpandClick = () => {
+    setExpanded(!expanded);
+  };
+
   return (
     <div className="section-container">
       <div className="title-container">
@@ -10,8 +18,16 @@ export const Experience = () => {
         <TimelineIcon className="about-icon"/>
       </div>
 
-      <p className="section-text-paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam nihil iure temporibus enim quo quasi saepe soluta, esse rerum architecto magni quidem, nulla porro alias distinctio at ipsum sint laudantium!</p>
-      <p className="section-text-paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam nihil iure temporibus enim quo quasi saepe soluta, esse rerum architecto magni quidem, nulla porro alias distinctio at ipsum sint laudantium!</p>
+      <div className="info-card-container">
+        { experience.map((item,i) => (
+          <InfoCard
+            expanded={expanded} 
+            expandFn={handleExpandClick} 
+            key={i}
+            content={item} 
+          />
+        )) }
+      </div>
     </div>
   )
 }
